@@ -1,3 +1,14 @@
-.title {
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,600');
+
+.navbar-title {
   font-family: 'Patua One', cursive;
+  font-size: 30px;
+  color: white;
+}
+
+.nav-link {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 22px;
+  color: #F4CB22;
 }
