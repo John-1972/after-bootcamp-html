@@ -13,7 +13,7 @@
   color: #F4CB22;
 }
 
-.bluebox {
+.col-md {
   width: 750px;
   text-align: center;
   margin-left: auto;
@@ -24,13 +24,13 @@
   background-color: #00384A;
 }
 
-.bluebox h1 {
+.col-md h1 {
   font-family: 'Patua One', cursive;
   font-size: 56px;
   color: white;
 }
 
-.bluebox h3 {
+.col-md h3 {
   font-family: 'Catamaran', sans-serif;
   font-size: 30px;
   color: white;
