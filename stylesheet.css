@@ -13,26 +13,43 @@
   color: #F4CB22;
 }
 
-.col-md {
-  width: 750px;
+.bluebox {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   border-style: none;
   border-radius: 20px;
   padding: 30px;
   background-color: #00384A;
 }
 
-.col-md h1 {
+.bluebox h1 {
   font-family: 'Patua One', cursive;
   font-size: 56px;
   color: white;
 }
 
-.col-md h3 {
+.bluebox h3 {
   font-family: 'Catamaran', sans-serif;
   font-size: 30px;
   color: white;
   margin-top: 14px;
+}
+
+.greybox {
+  margin-top: 14px;
+  border-radius: 20px;
+  padding: 8px;
+  background-color: #444444;
+  
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  color: white;
+}
+
+.greybox b {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  color: white;
+  padding-left: 10px;
 }
