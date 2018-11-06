@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Patua+One');
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,600');
 
+body {background-color: blue;}
+
 .navbar-title {
   font-family: 'Patua One', cursive;
   font-size: 30px;
@@ -13,40 +15,42 @@
   color: #F4CB22;
 }
 
-.bluebox {
-  text-align: center;
-  border-style: none;
-  border-radius: 20px;
-  padding: 30px;
-  background-color: #00384A;
+.background-col {
+  background-color: #202020;
 }
 
-.bluebox h1 {
+.titlebox {
+  text-align: center;
+  padding: 20px;
+}
+
+.titlebox h1 {
   font-family: 'Patua One', cursive;
   font-size: 56px;
   color: white;
 }
 
-.bluebox h3 {
+.titlebox h3 {
   font-family: 'Catamaran', sans-serif;
   font-size: 30px;
   color: white;
   margin-top: 14px;
+  margin-bottom: 14px;
 }
 
-.greybox {
+.textbox {
   margin-top: 14px;
   border-radius: 20px;
   padding: 8px;
   background-color: #444444;
-  
+  /* Attributes for regular text */
   font-family: 'Catamaran', sans-serif;
   font-weight: 400;
   font-size: 26px;
   color: white;
 }
 
-.greybox b {
+.textbox b {
   font-family: 'Catamaran', sans-serif;
   font-weight: 600;
   font-size: 26px;
