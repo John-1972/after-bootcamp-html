@@ -57,3 +57,25 @@ body {background-color: blue;}
   color: white;
   padding-left: 10px;
 }
+
+.section-heading {
+  margin-top: 20px;
+  font-family: 'Patua One', cursive;
+  font-size: 30px;
+  color: white;
+  text-decoration: underline;
+}
+
+.item {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+
+.item b {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+}
