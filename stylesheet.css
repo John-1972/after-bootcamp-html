@@ -48,6 +48,7 @@ body {background-color: blue;}
   font-weight: 400;
   font-size: 26px;
   color: white;
+  margin-bottom: 10px;
 }
 
 .textbox b {
@@ -56,6 +57,14 @@ body {background-color: blue;}
   font-size: 26px;
   color: white;
   padding-left: 10px;
+}
+
+.body-text {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
 }
 
 .section-heading {
@@ -71,6 +80,7 @@ body {background-color: blue;}
   font-weight: 400;
   font-size: 24px;
   color: white;
+  margin-top: 6px;
 }
 
 .item b {
@@ -78,4 +88,5 @@ body {background-color: blue;}
   font-weight: 600;
   font-size: 24px;
   color: white;
+  margin-top: 6px;
 }
