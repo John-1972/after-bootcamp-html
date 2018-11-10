@@ -62,7 +62,7 @@ body {background-color: blue;}
 .body-text {
   font-family: 'Catamaran', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 22px;
   color: white;
   margin-bottom: 10px;
 }
@@ -78,7 +78,7 @@ body {background-color: blue;}
 .item {
   font-family: 'Catamaran', sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 22px;
   color: white;
   margin-top: 6px;
 }
