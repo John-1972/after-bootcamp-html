@@ -90,3 +90,7 @@ body {background-color: blue;}
   color: white;
   margin-top: 6px;
 }
+
+.item li pre {
+  padding: 0;
+}

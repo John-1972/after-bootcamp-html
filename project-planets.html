@@ -117,8 +117,7 @@
           <li>To immediately redirect users from the index page to the first show page, the index action in the Planets controller (app/controllers/planets_controller) might say something like:
             <pre>
               <code class="language-ruby">
-                redirect_to planet_path(1)
-              </code>
+              redirect_to planet_path(1)</code>
             </pre>
           (It is possible to set routes.rb to say “root ‘planets#show’”, which would set the show page as root and skip the index page entirely. But you can’t include an id with the ‘root’ action, so there would be no way to specify a planet on the show page.)
           </li>
@@ -127,13 +126,12 @@
           <li>By default, Rails sets the URL of a displayed record by its id. For example, the ‘something’ database record with an id of 1 will appear in the browser address bar as ‘something/1’.</li>
         </div>
         <div class="item col-md">
-          <li>Your app’s links will need to work out what the previous and next planet is from the one that’s currently shown; the links in your app/views/layouts/application.html.erb file can do this using simple arithmetic:
+          <li>Your app will need to work out what the previous and next planet is from the one that’s currently shown. The links in your app/views/layouts/application.html.erb file can do this using simple arithmetic:
             <pre>
               <code class="language-ruby">
                 planet_path(@planet.id – 1)
 
-                planet_path(@planet.id + 1)
-              </code>
+                planet_path(@planet.id + 1)</code>
             </pre>
           </li>
         </div>
@@ -147,8 +145,7 @@
 
                 if @planet.id != 8 
                       @not_last_planet = true
-                end
-              </code>
+                end</code>
             </pre>
           These booleans can then be tested to decide whether to enable the links in app/views/layouts/application.html.erb:
             <pre>
@@ -157,8 +154,7 @@
                 # Previous planet link enabled if current planet isn’t first
 
                 <%= link_to_if @not_last_planet, 'Next planet >',   planet_path(@planet.id + 1) %>
-                # Next planet link enabled if current planet isn’t last
-              </code>
+                # Next planet link enabled if current planet isn’t last</code>
             </pre>
           </li>
         </div>
